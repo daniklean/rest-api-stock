@@ -1,0 +1,27 @@
+{
+  "name": "deposito",
+  "version": "1.0.0",
+  "description": "Actividad del Almacen BackEnd  ",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "author": "Ana Román",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.15.8",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.14"
+  }
+}
